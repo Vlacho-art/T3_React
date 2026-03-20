@@ -1,73 +1,82 @@
-# 🧠 E-commerce Web Application
-The E-commerce Web Application is a comprehensive online shopping platform built using React, Vite, and Material UI. It provides a seamless user experience, allowing customers to browse products, manage their accounts, and make purchases. The application features a responsive design, ensuring a smooth experience across various devices and screen sizes.
+# 🧠 Aplicación Web de Comercio Electrónico
 
-## 🚀 Features
-* User account management with login and registration functionality
-* Product browsing and filtering
-* Shopping cart management with add, remove, and update functionality
-* Favorites list management
-* Responsive design for a seamless user experience across devices
-* Integration with React Router for client-side routing
-* Utilization of Material UI for a consistent and visually appealing design
+La Aplicación Web de Comercio Electrónico es una plataforma completa de compras en línea construida con React, Vite y Material UI. Proporciona una experiencia de usuario fluida, permitiendo a los clientes explorar productos, gestionar sus cuentas y realizar compras. La aplicación cuenta con un diseño responsivo, asegurando un funcionamiento óptimo en diferentes dispositivos y tamaños de pantalla.
 
-## 🛠️ Tech Stack
-* Frontend: React, React Router, Material UI
-* Backend: None (client-side only)
-* Build Tool: Vite
-* Database: Local Storage (for demo purposes)
-* AI Tools: None
-* Other dependencies:
-	+ `@emotion/react`
-	+ `@mui/material`
-	+ `react-dom`
-	+ `react-router-dom`
+## 🚀 Características
+- Gestión de cuentas de usuario (inicio de sesión y registro)
+- Navegación y filtrado de productos
+- Carrito de compras (agregar, eliminar y actualizar productos)
+- Lista de favoritos
+- Diseño responsivo (adaptable a móvil, tablet y escritorio)
+- Enrutamiento con React Router
+- Interfaz moderna con Material UI
 
-## 📦 Installation
-To get started with the E-commerce Web Application, follow these steps:
-1. Clone the repository using `git clone https://github.com/your-repo/ecommerce-web-app.git`
-2. Navigate to the project directory using `cd ecommerce-web-app`
-3. Install the dependencies using `npm install` or `yarn install`
-4. Start the development server using `npm run dev` or `yarn dev`
+## 🛠️ Tecnologías Utilizadas
+- Frontend: React, React Router, Material UI  
+- Backend: No aplica (solo frontend)  
+- Build Tool: Vite  
+- Base de datos: Local Storage (demo)  
 
-## 💻 Usage
-1. Open your web browser and navigate to `http://localhost:3000`
-2. Explore the application by browsing products, managing your account, and making purchases
-3. Use the favorites list and shopping cart to manage your products
+Dependencias principales:
+- `@emotion/react`
+- `@mui/material`
+- `react-dom`
+- `react-router-dom`
+
+## 📦 Instalación
+Para comenzar a usar la aplicación web de comercio electrónico, sigue estos pasos:
+1. Clona el repositorio con `git clone https://github.com/your-repo/ecommerce-web-app.git`
+2. Accede al directorio del proyecto con `cd ecommerce-web-app`
+3. Instala las dependencias con `npm install` o `yarn install`
+4. Inicia el servidor de desarrollo con `npm run dev` o `yarn dev`
+
+## 💻 Usa
+1. Abre tu navegador web y accede a `http://localhost:3000`.
+2. Explora la aplicación: navega por los productos, gestiona tu cuenta y realiza compras.
+3. Utiliza la lista de favoritos y el carrito de compras para gestionar tus productos.
 
 ## 📂 Project Structure
 ```markdown
+t3_eshop_3256502/
+├── node_modules/
+├── public/
+│   ├── img/
+│   └── robots.txt
+└── src/
+│   ├── features/
+│   │   ├── auth/
+│   │   │   ├── components/
+│   │   │   ├── hooks/
+│   │   │   └── pages/
+│   │   ├── layout/
+│   │   │   ├── components/
+│   │   │   ├── hooks/
+│   │   │   └── pages/
+│   │   └── view/
+│   │       ├── components/
+│   │       ├── hooks/
+│   │       └── pages/
+│   ├── shared/
+│   	└── styles/
+├── App.jsx
+├── main.jsx
 ├── index.html
+├── .gitignore
+├── eslint.config.js
+├── package-lock.json
 ├── package.json
-├── vite.config.js
-├── src
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── features
-│   │   ├── auth
-│   │   │   ├── components
-│   │   │   │   ├── Myaccount.jsx
-│   │   │   ├── hooks
-│   │   │   │   ├── useCart.jsx
-│   │   │   │   ├── useFavorites.jsx
-│   │   ├── layout
-│   │   │   ├── components
-│   │   │   │   ├── Footer.jsx
-│   │   │   │   ├── Header.jsx
-│   │   ├── view
-│   │   │   ├── hooks
-│   │   │   │   ├── useContext.jsx
+├── README.md
+└── vite.config.js
 ```
 
-## 📸 Screenshots
+## 🤝 Contribuciones
+¡Las contribuciones son bienvenidas! Para contribuir, por favor envía un pull request con tus cambios.
 
-## 🤝 Contributing
-Contributions are welcome! If you'd like to contribute to the E-commerce Web Application, please fork the repository and submit a pull request with your changes.
+## 📝 Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Vladimir Durango Vargas
 
-## 📝 License
-The E-commerce Web Application is licensed under the MIT License.
+## 📬 Contacto
+Para preguntas o inquietudes, contáctanos en: durangovladimir@gmail.com
 
-## 📬 Contact
-For any questions or concerns, please contact us at [your-email@example.com](mailto:your-email@example.com).
-
-## 💖 Thanks Message
-Thank you for using the E-commerce Web Application! This is written by readme.ai, check out our platform at https://readme-generator-phi.vercel.app/
+## 💖 Mensaje de Agradecimiento
+¡Gracias por explorar este proyecto! Este README fue generado con https://readme-generator-phi.vercel.app/
